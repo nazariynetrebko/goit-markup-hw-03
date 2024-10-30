@@ -184,7 +184,7 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
-    margin: 0 0 0 0;
+    margin-bottom: 8px;
 }
 
 .title-small {
@@ -192,7 +192,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin: 8px 0;
 }
 
 .link {
@@ -230,6 +229,7 @@ body {
     display: flex;
     gap: 24px;
     flex-direction: row;
+    padding: 0;
 }
 
 .team-list {
@@ -237,6 +237,7 @@ body {
     width: calc((100% - 72px) / 4);
     border: 1px solid #E7E9FC;
     border-top: none;
+    border-radius: 0 0 4px 4px
 }
 
 .title-team {
